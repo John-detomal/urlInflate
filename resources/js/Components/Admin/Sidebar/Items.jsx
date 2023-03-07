@@ -5,8 +5,7 @@ import { usePage } from '@inertiajs/react'
 export default function DashboardSidebarItem(){
     const {url} = usePage();
     const { auth } = usePage().props
-
-    if(auth.user_type == 1){
+    if(auth.user.user_type == 1){
         return(
             <>
                 {
@@ -28,7 +27,7 @@ export default function DashboardSidebarItem(){
     
             </>
         )
-    }else if(auth.user_type == 0){
+    }else if(auth.user.user_type == 0){
         return(
             <>
                 {
