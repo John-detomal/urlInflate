@@ -1,0 +1,14 @@
+ul.filter-tools{
+    border: solid 1px #6692FF;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #666666;
+    li{
+        font-size: 1.2em;
+        padding: 0.7em;
+    }
+    li.title{
+        font-weight: 600;
+        color: #000000;
+    }
+}

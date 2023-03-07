@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: font-url('https://unicons.iconscout.com/release/v4.0.0/css/line.css');
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),
+      url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+        format('woff2');
+    font-display: swap;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+.wdt-sz__md{
+    width: 65%;
+}
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    background: #6694FF;
+    position: relative;
+    transition: opacity ease-in 0.2s;
+    display: block;
+    height: 100vh;
+}
+table{
+    width: 100%;
+}
+div{
+    display:block;
+    }
+p
+* {
+	margin: 0;
+	padding: 0;
+
+}
+div {
+    white-space: nowrap;
+}
+
+
+p, div, span, label{
+    white-space: normal;
+}
+p, span, label{
+    font-size: 1em;
+}
+
+
+.tab-is-active{
+    background: #1879CD;
+
+}
+
+select, input{
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}
+
+.bdr-btm__1--plain{
+    border-bottom: solid 1px #ffffff
+}
+
+.bdr-top__1--plain{
+    border-top: solid 1px #ffffff
+}
+
+
+.btn-group button {
+    background-color: #1879CD; /* Green background */
+    border: 1px solid #4680ff; /* Green border */
+    color: white; /* White text */
+    padding: 3px 10px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #4680ff;
+  }
+
+// @tailwind utilities;

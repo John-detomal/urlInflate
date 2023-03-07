@@ -1,0 +1,27 @@
+{
+    "user": [
+        {
+            "label" : "Dashboard",
+            "icon" : "uil uil-estate",
+            "link":   "/user/dashboard"
+        },
+        {
+            "label" : "Profile",
+            "icon" : "uil uil-users-alt",
+            "link":   "/user/dashboard"
+        }
+    ],
+    
+    "admin" : [
+        {
+            "label" : "Dashboard",
+            "icon" : "uil uil-estate",
+            "link":   "/admin/dashboard"
+        },
+         {
+            "label" : "Customer",
+            "icon" : "uil uil-users-alt",
+            "link":   "/admin/customer"
+        }
+    ]
+}

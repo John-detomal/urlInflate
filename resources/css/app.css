@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    input[type=date],
+    input[type=password] {
+    width: 100%;
+
+
+    line-height: 20px;
+
+    box-sizing: border-box;
+    }
+    h1 {
+        font-size: 3.75em
+    }
+    h2 {
+        font-size: 3em
+    }
+    h3 {
+        font-size: 2.75em
+    }
+    h4 {
+        font-size: 2em
+    }
+    h5 {
+        font-size: 1.5em
+    }
+    h6 {
+        font-size: 1.75em
+    }
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: font-url('https://unicons.iconscout.com/release/v4.0.0/css/line.css');
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),
+      url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+        format('woff2');
+    font-display: swap;
+  }

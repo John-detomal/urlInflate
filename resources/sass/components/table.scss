@@ -1,0 +1,22 @@
+.c-tbl-main{
+    table{
+        tr:nth-child(even){
+            background-color: #4680ff08;        }
+        tr{
+            th{
+                background-color: #ecf0f5;
+                text-transform: uppercase;
+                font-weight: 600;
+                // font-size: 1.9em;
+                padding: 1.05rem 0.75rem;
+                border-bottom: 1px solid #eaeaea;
+                text-align: left;
+            }
+            td{
+                padding: 1.05rem 0.75rem;
+                box-sizing: content-box;
+                border-bottom: 1px solid #eaeaea;
+            }
+        }
+    }
+}

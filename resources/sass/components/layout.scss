@@ -1,0 +1,33 @@
+
+.l-main-box{
+    background: #ecf0f5;
+    position: relative;
+    padding-top: 0;
+    display: block;
+    clear: both;
+    float: unset;
+    right: 0;
+    top: 0;
+    margin: 0 auto 0 230px;
+    min-height: 100vh;
+    transition: all .3s ease-in-out;
+    .l-main-wrapper{
+        position: relative;
+        top: -51px;
+        margin: 25px;
+        height: 100vh;
+        // background: white;
+        .l-main-content{
+            position: relative;
+            display: block;
+            padding: 15px;
+            margin-top: 140px;
+
+        }
+    }
+}
+
+.l-main-box::before{
+    content: "";
+    transition: all .3s ease-in-out;
+}

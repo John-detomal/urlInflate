@@ -1,0 +1,21 @@
+
+@import"./filter.scss";
+
+mark.icon-circle{
+    // padding: 5px 5px;
+    text-align: center;
+    height: 1.45em;
+    width: 1.5em;
+    border-radius: 50%;
+    color: #000;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.body-box{
+    padding: 2.5em 5em 0 5em;
+}
+
+.bdr-btm__default{
+    border-bottom: 1px solid #dddddd
+}

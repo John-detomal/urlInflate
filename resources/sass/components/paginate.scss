@@ -1,0 +1,15 @@
+ul.c-paginate{
+    display: inline-flex;
+    li.num{
+        font-weight: 400;
+        border-radius: 50%;
+        color: #000000;
+        border: solid 1px #4680ff;
+        padding: 4px 10px;
+    }
+  
+    li.active{
+        background-color: #4680ff;
+        color: #ffffff;
+    }
+}

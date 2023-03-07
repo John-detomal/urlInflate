@@ -1,0 +1,164 @@
+$size: 8.33%;
+$base_size: 5px;
+$per_width: 5%;
+$width: 100px;
+$label_width: 30px;
+$with_em: 2em;
+
+.hgt-full__vh{
+    height: 100vh;
+}
+.wdt-full__vh{
+    height: 100vh;
+}
+.wdt-full{
+    width: 100%;
+}
+.mgn-center{
+    margin: 0 auto;
+}
+.mgn-ato{
+    margin: auto;
+}
+.mgn-l-ato{
+    margin-left: auto;
+}
+.mgn-r-ato{
+    margin-right: auto;
+}
+.min-wgt-sm{
+    min-width: 180px;
+}
+.min-wgt-md{
+    min-width: 230px;
+}
+.min-wgt-lg{
+    min-width: 350px;
+}
+.mgn-sm{
+    margin: 10px
+}
+.mgn-md{
+    margin: 20px
+}
+
+.mgn-lg{
+    margin: 30px
+}
+
+.pdg-sm{
+    padding: 10px
+}
+.pdg-md{
+    padding: 20px
+}
+
+.pdg-lg{
+    padding: 30px
+}
+.lbl-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@for $i from 1 through 12{
+    .mgn-t-#{$i}{
+        margin-top: $base_size * $i;
+    }
+
+    .mgn-r-#{$i}{
+        margin-right: $base_size * $i;
+    }
+
+    .mgn-b-#{$i}{
+        margin-bottom: $base_size * $i;
+    }
+
+    .mgn-l-#{$i}{
+        margin-left: $base_size * $i;
+    }
+
+    .mgn-#{$i}{
+        margin: $base_size * $i;
+    }
+
+}
+
+.l-sz-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@for $i from 1 through 12 {
+    .l-sz-#{$i}{
+        display: flex;
+        flex-direction: column;
+        @if($i == 12){
+            width: 100%;
+        }@else{
+            width: $size * $i;
+        }
+    }
+
+}
+
+@for $i from 1 through 12{
+    .fnt-sz__#{$i}{
+        font-size: $base_size * $i;
+    }
+}
+
+@for $i from 1 through 12 {
+    .wgt-#{$i} {
+        @if($i == 12){
+            width: 100%;
+        }
+        width: $size * $i;
+    }
+}
+
+@for $i from 1 through 12 {
+    .pdg-#{$i} {
+        padding: $base_size * $i;
+    }
+    .pdg-tp__#{$i} {
+        padding-top: $base_size * $i;
+    }
+    .pdg-btm__#{$i} {
+        padding-bottom: $base_size * $i;
+    }
+    .pdg-lft__#{$i} {
+        padding-left: $base_size * $i;
+    }
+    .pdg-rgt__#{$i} {
+        padding-right: $base_size * $i;
+    }
+}
+
+@for $i from 1 through 12{
+    .hgt-#{$i}{
+        @if($i == 12){
+            height: 100%;
+        }
+        height: $size * $i;
+    }
+}
+
+.hgt-fit{
+    height: fit-content;
+}
+
+@for $i from 1 through 12 {
+    .wdt-sz-#{$i} {
+        width: $label_width * $i
+    }
+}
+
+@for $i from 1 through 12{
+    .wdt-sz__em--#{$i}{
+        width: $with_em * $i;
+    }
+}

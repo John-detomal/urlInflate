@@ -1,0 +1,22 @@
+@import"../variable/color.scss";
+
+@function color($key){
+    @return #{map-get($color, $key)}
+}
+
+.txt-color__{
+    @each $key, $val in $color{
+        &#{$key}{
+            color: $val;
+        }
+    }
+}
+
+.c-bg-color__{
+    @each $key, $val in $color{
+        &#{$key}{
+            background-color: $val;
+        }
+    }
+}
+
